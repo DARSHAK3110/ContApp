@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewContact">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:text="@string/new_contact"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/lock" />
+    <EditText
+        android:id="@+id/edtNewContactName"
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/enter_name"
+        android:minHeight="48dp"
+        android:textColorHint="#673AB7" />
+
+    <EditText
+        android:id="@+id/edtNewContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/enter_mobile_number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColorHint="#673AB7" />
+
+    <EditText
+        android:id="@+id/edtNewContactEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/enter_e_mail"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#673AB7" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttons"
+        android:text="@string/add_contacts"
+        android:textStyle="bold" />
+
+</LinearLayout>

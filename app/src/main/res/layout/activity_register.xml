@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+    <LinearLayout
+        android:id="@+id/register_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:text="@string/register"/>
+
+        <EditText
+            android:id="@+id/edtRegisterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:inputType="textPersonName"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enter_your_name"
+            android:minHeight="48dp"
+            android:textColorHint="#673AB7" />
+
+        <EditText
+            android:id="@+id/edtRegisterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/enter_your_email_id"
+            android:minHeight="48dp"
+            android:textColorHint="#673AB7" />
+
+        <EditText
+            android:id="@+id/edtRegisterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enter_password"
+            android:minHeight="48dp"
+            android:textColorHint="#673AB7"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edtRegisterRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/re_enter_password"
+            android:minHeight="48dp"
+            android:inputType="textPassword"
+            android:textColorHint="#673AB7" />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="10dp"
+            android:text="@string/register"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</LinearLayout>

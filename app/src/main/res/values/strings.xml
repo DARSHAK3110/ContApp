@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ContApp</string>
+    <string name="loading">Loading...</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="register">Register</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_your_email_id">Enter your Email-id</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_e_mail">Enter E-mail</string>
+    <string name="enter_mobile_number">Enter Mobile-Number</string>
+    <string name="add_contacts">add contacts</string>
+    <string name="new_contact">New Contact</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_new_details">Enter new Details</string>
+    <string name="change_contact">change contact</string>
+</resources>
